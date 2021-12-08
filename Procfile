@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run --server.port $PORT Steel_Deck_Streamlit.py
