@@ -151,7 +151,6 @@ if Deck_Type=='1F' or Deck_Type=='1.5B' or Deck_Type=='3N': ang_st=0.0
 elif Deck_Type=='1.5BST1' or Deck_Type=='1.5BST2' or Deck_Type=='1.5BST3' or Deck_Type=='2CST1' or Deck_Type=='2CST2' or Deck_Type=='2CST3': ang_st=30.625
 elif Deck_Type=='3CST1' or Deck_Type=='3CST2' or Deck_Type=='3CST3': ang_st=36.501
 
-#Not sure about bp=0 for flat flanges (double-check later)
 if Deck_Type=='1F' or Deck_Type=='1.5B' or Deck_Type=='3N': b_p=0.0
 elif Deck_Type=='1.5BST1': b_p=0.895
 elif Deck_Type=='1.5BST2': b_p=1.25
