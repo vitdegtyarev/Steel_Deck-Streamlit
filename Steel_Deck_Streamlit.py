@@ -323,8 +323,9 @@ image5 = Image.open(os.path.join(ROOT_DIR,'Distort_Flange.png'))
 st.image(image5)
 
 st.subheader('Reference')
-st.write('Degtyarev, V.V. (2022). "Exploring machine learning for predicting elastic buckling and ultimate moments of steel decks in bending." Proceedings of the Annual Stability Conference. Structural Stability Research Council (SSRC), Denver, Colorado. (in press)')
+st.write('Degtyarev, V.V. (2022). "Exploring machine learning for predicting elastic buckling and ultimate moments of steel decks in bending." Proceedings of the Annual Stability Conference. Structural Stability Research Council (SSRC), Denver, Colorado.')
+st.markdown('[AISC](https://www.aisc.org/education/continuingeducation/education-archives/exploring-machine-learning-for-predicting-elastic-buckling-and-ultimate-moments-of-steel-decks-in-bending/)', unsafe_allow_html=True)
+st.markdown('[ResearchGate](https://www.researchgate.net/publication/359329836_Exploring_machine_learning_for_predicting_elastic_buckling_and_ultimate_moments_of_steel_decks_in_bending)', unsafe_allow_html=True)
 
 st.subheader('Source code')
 st.markdown('[GitHub](https://github.com/vitdegtyarev/Steel_Deck-Streamlit)', unsafe_allow_html=True)
-
